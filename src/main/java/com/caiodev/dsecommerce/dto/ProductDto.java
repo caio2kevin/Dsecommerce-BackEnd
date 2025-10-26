@@ -3,7 +3,7 @@ package com.caiodev.dsecommerce.dto;
 import com.caiodev.dsecommerce.entities.Product;
 
 public class ProductDto {
-    private long id;
+    private Long id;
     private String name;
     private String description;
     private double price;
@@ -12,7 +12,7 @@ public class ProductDto {
     public ProductDto(){
     }
 
-    public ProductDto(long id, String name, String description, double price, String imgUrl) {
+    public ProductDto(Long id, String name, String description, double price, String imgUrl) {
         this.id = id;
         this.name = name;
         this.description = description;
